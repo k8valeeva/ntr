@@ -1,0 +1,45 @@
+.header{
+  background: #131112;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+
+  .logo{
+    font: 48px/85px 'RobotoSlap-Bold', sans-serif;
+    color: #fff;
+  }
+}
+
+.navbar{
+  padding: 0;
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+.top-menu{
+  text-transform: uppercase;
+  text-align: right;
+
+  li{
+
+    a{
+      font: 17px/85px 'Oswald-SemiBold', sans-serif;
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 0 20px;
+    }
+  }
+}
+
+@media (max-width: 991px){
+
+ .top-menu li a{
+   font-size: 16px;
+   line-height: 50px;
+   padding: 0;
+   margin-bottom: 10px;
+ }
+}

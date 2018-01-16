@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+*:focus {
+  outline: none !important;
+}
+*:hover {
+  transition: 0.3s all ease;
+}
+
+a {
+  transition: 0.2s all ease;
+}
+
+body {
+  font: 25px "OpenSansCondensed-Light", sans-serif;
+  line-height: 35px;
+}
+
+img {
+  display: block;
+}
+
+.container-fluid{
+  padding: 0;
+}
+

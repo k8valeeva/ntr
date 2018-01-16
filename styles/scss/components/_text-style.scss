@@ -1,0 +1,37 @@
+.slogan{
+  font: 46px 'Oswald-SemiBold', sans-serif;
+
+  &-sm{
+    font: 25px/45px 'Oswald-SemiBold', sans-serif;
+  }
+}
+
+@media (max-width: 991px){
+  .slogan{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px){
+  .slogan-sm{
+    font: 23px/25px 'Oswald-SemiBold', sans-serif;
+  }
+}
+
+.caption-section{
+  font: 36px 'Oswald-SemiBold', sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.number-style{
+  font-size: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  @include display-flex;
+  @include justify-content(center);
+  @include align-items(center);
+  margin-bottom: 15px;
+}
